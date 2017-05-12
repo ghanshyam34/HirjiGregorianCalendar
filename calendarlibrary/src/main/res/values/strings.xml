@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">CalendarLibrary</string>
+
+    <string name="hijri_date_picker_done" translatable="false">Done</string>
+    <string name="hijri_date_picker_cancel" translatable="false">Cancel</string>
+    <string name="hijri_date_picker_year" translatable="false">Year</string>
+    <string name="January" translatable="false">January</string>
+    <string name="February" translatable="false">February</string>
+    <string name="March" translatable="false">March</string>
+    <string name="April" translatable="false">April</string>
+    <string name="May" translatable="false">May</string>
+    <string name="June" translatable="false">June</string>
+    <string name="July" translatable="false">July</string>
+    <string name="August" translatable="false">August</string>
+    <string name="September" translatable="false">September</string>
+    <string name="October" translatable="false">October</string>
+    <string name="November" translatable="false">November</string>
+    <string name="December" translatable="false">December</string>
+
+    <string-array name="hijri_date_picker_days">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+
+
+    <string name="hijri_date_picker_cancel_arabic" translatable="false">الغاء</string>
+    <string name="dhu_alhijjah" translatable="false">ذو الحجة</string>
+    <string name="hijri_date_picker_done_arabic" translatable="false">موافق</string>
+    <string name="dhu_alqadah" translatable="false">ذو القعدة</string>
+    <string name="jamada_i" translatable="false">جماد الاول</string>
+    <string name="jamada_ii" translatable="false">جماد الثاني</string>
+    <string name="muharram" translatable="false">محرم</string>
+    <string name="rabi_i" translatable="false">ربيع الاول</string>
+    <string name="rabi_ii" translatable="false">ربيع الثاني</string>
+    <string name="rajab" translatable="false">رجب</string>
+    <string name="ramadan" translatable="false">رمضان</string>
+    <string name="safar" translatable="false">صفر</string>
+    <string name="shaban" translatable="false">شعبان</string>
+    <string name="shawal" translatable="false">شوال</string>
+    <string name="hijri_date_picker_year_arabic" translatable="false">السنة</string>
+    <string-array name="hijri_date_picker_days_arabic">
+        <item>الاحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الاربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+
+    <!--<string name="calendar_confirm">Confirm</string>-->
+    <string name="date_time_header">Date and Time</string>
+
+    <string name="search" translatable="false">Search&#8230;</string>
+
+    <string name="time_text">TIME</string>
+    <string name="calendar_confirm">DONE</string>
+    <string name="header_calendar">Calendar</string>
+    <string name="calendar_cancel">Cancel</string>
+
+</resources>
