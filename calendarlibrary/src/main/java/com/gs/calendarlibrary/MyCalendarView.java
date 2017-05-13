@@ -47,6 +47,7 @@ public class MyCalendarView extends Dialog implements View.OnClickListener {
 
     public MyCalendarView(Context ctx, int themeResId) {
         super(ctx, themeResId);
+        build();
     }
 //
     protected MyCalendarView(Context ctx, boolean cancelable, OnCancelListener cancelListener) {
@@ -130,14 +131,19 @@ public class MyCalendarView extends Dialog implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_hijri_calendar_with_time);
-        getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-        context = getContext();
 
-        linear_calendar = (LinearLayout)findViewById(R.id.linear_calendar);
-        configureLanguage();
-        setupView();
+        try {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.dialog_hijri_calendar_with_time);
+            getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+            context = getContext();
+
+            linear_calendar = (LinearLayout) findViewById(R.id.linear_calendar);
+            configureLanguage();
+            setupView();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 
@@ -560,11 +566,17 @@ public class MyCalendarView extends Dialog implements View.OnClickListener {
             MyCalendarView.gregorian_min = 2013;
             MyCalendarView.language = Language.Default.getLanguageValue();
             MyCalendarView.scrolling = true;
+            myDialog = null;
             myDialog = new MyCalendarView(ctx,R.style.Theme_CustomDialog);
-            myDialog.show();
-            myDialog.hide();
+
+//            myDialog.show();
+//            myDialog.hide();
 
         return myDialog;
+    }
+
+    public void build(){
+        onCreate(null);
     }
 
     public void setMaxHijriYear(int maxYear) {
