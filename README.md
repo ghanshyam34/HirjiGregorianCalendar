@@ -1,6 +1,26 @@
 # HirjiGregorianCalendar
 This Android Demo Example Shows  the  Hirji(Islamic) and Gregorian Calendar. Developer can Customize the Calendar by import the Calendar library in Project  and can use as MainActivity in example.
 
+
+##Getting Started
+
+you can  create it porgrammatically and can customize to fit according to your requirement without extra padding and fit to center according to your requirement etc...
+
+```
+  MyCalendarView myCalendarView;
+  myCalendarView = MyCalendarView.getInstance(MainActivity.this,true);
+
+                myCalendarView.setOnDateSetListener(MainActivity.this);
+                myCalendarView.setMinMaxHijriYear(1430, 1450);
+                myCalendarView.setMinMaxGregorianYear(2013, 2020);
+                myCalendarView.setMode(MyCalendarView.Mode.Gregorian);
+                myCalendarView.setUILanguage(MyCalendarView.Language.English);
+                myCalendarView.setEnableScrolling(false);
+
+                myCalendarView.showDialog();
+```
+
+
 Please check the below screen shots 
 
 
