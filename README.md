@@ -5,6 +5,7 @@ This Android Demo Example Shows  the  Hirji(Islamic) and Gregorian Calendar. Dev
 ##Getting Started
 
 you can  create it porgrammatically and can customize to fit according to your requirement without extra padding and fit to center according to your requirement etc...
+
 #Gregorian
 ```
                MyCalendarView myCalendarView;
