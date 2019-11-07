@@ -2,7 +2,9 @@
 This Android Demo Example Shows  the  Hirji(Islamic) and Gregorian Calendar. Developer can use the Calendar by import the Calendar library in Project.
 
 ```
-
+dependencies {
+	        implementation 'com.github.ghanshyam34:HirjiGregorianCalendar:9489b3cf70'
+	}
 ```
 
 ##Getting Started
