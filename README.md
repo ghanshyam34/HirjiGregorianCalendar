@@ -3,7 +3,7 @@ This Android Demo Example Shows  the  Hirji(Islamic) and Gregorian Calendar. Dev
 
 ```
 dependencies {
-	        implementation 'com.github.ghanshyam34:HirjiGregorianCalendar:9489b3cf70'
+	   implementation 'com.github.ghanshyam34:HirjiGregorianCalendar:9489b3cf70'
 	}
 ```
 
